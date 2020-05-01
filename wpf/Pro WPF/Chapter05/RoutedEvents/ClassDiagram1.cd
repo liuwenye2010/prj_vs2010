@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RoutedEvents.App" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.BubbledLabelClick" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>BubbledLabelClick.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.ButtonMouseUpEvent" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ButtonMouseUpEvent.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.DragAndDrop" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>DragAndDrop.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.Focus" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Focus.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.KeyModifiers" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAA=</HashCode>
+      <FileName>KeyModifiers.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.KeyPressEvents" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAICQAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>KeyPressEvents.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.Menu" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.MousePosition" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>MousePosition.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.OnlyNumbers" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>OnlyNumbers.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.TunneledKeyPress" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAE=</HashCode>
+      <FileName>TunneledKeyPress.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoutedEvents.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Application" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

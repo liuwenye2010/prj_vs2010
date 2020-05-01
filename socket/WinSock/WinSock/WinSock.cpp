@@ -64,6 +64,35 @@ int __cdecl main()
 /* Add network programming using Winsock here */
 
 /* then call WSACleanup when done using the Winsock dll */
+
+
+
+
+
+#if 1
+
+  char szHost[256];  
+  gethostname(szHost,256); 
+  fprintf(stdout,"\t gehostname: %s\n",szHost); 
+  hostent *pHost=gethostbyname(szHost);  
+  in_addr addr;  
+         
+  char *p=pHost->h_addr_list[0];  
+  memcpy(&addr.S_un.S_addr,p,pHost->h_length);  
+  char *szIp=inet_ntoa(addr);  
+  fprintf(stdout,"\t  %s\n",szIp); 
+
+
+#endif 
+
+
+
+
+
+
+
+
+
     
     WSACleanup();
 

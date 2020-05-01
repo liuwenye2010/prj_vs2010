@@ -12,6 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BFE991A9-C104-448A-89C6-5B668D10F0B8}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>console</RootNamespace>
   </PropertyGroup>

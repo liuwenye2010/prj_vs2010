@@ -1,4 +1,10 @@
 ﻿
+
+
+
+
+
+
 #if 0 
 #include <windows.h>
 #include <stdio.h>
@@ -46,6 +52,7 @@ int main()
 #include <time.h>
 #include <sys/timeb.h>
 #include <windows.h>
+#include <stdint.h> 
 char datestr[16];
 char timestr[16];
 char mss[4];
@@ -84,11 +91,14 @@ VOID CALLBACK myTimerProc2(
 }
 
 
-
+void test_time_elapse(uint32_t ms_delay) ; 
 int main() {
     int i;
     MSG msg;
  
+	test_time_elapse(100); 
+
+
     SetTimer(NULL,0,1000,myTimerProc1);
     SetTimer(NULL,0,2000,myTimerProc2);
     for (i=0;i<20;i++) {
@@ -109,3 +119,61 @@ int main() {
 //2. SetWaitableTimer - 多种用法, 内核对象
 //3. CreateTimerQueueTimer - 内核对象+线程池(稍显复杂)
 //4. Task Scheduler - Windows 定期管理服务 (services可能会被禁用) 
+
+
+
+class CTimeoutTimer
+{
+  public:
+    CTimeoutTimer(DWORD dwTimeOut /*ms*/) : m_dwTimeOutValue(dwTimeOut),
+                                            m_dwStartTime(0)
+    {
+    }
+
+    // Specifies the timer out value.
+    void SetTimeOutValue(DWORD dwTimeOut /*ms*/)
+    {
+        m_dwTimeOutValue = dwTimeOut;
+    }
+
+    // Resets the elapsed time.
+    void Reset()
+    {
+        m_dwStartTime = timeGetTime();
+    }
+
+    // Return TRUE if time is up.
+    BOOL IsTimeOut() const
+    {
+        BOOL bTimeOut = FALSE;
+        DWORD dwCurTime = timeGetTime();
+        if ((dwCurTime - m_dwStartTime) > m_dwTimeOutValue)
+        {
+            bTimeOut = TRUE;
+        }
+        return bTimeOut;
+    }
+
+    // Return delta time.
+    DWORD GetDeltaTime() const
+    {
+        return timeGetTime() - m_dwStartTime;
+    }
+
+  private:
+    CTimeoutTimer();
+    ULONG m_dwTimeOutValue;
+    ULONG m_dwStartTime;
+};
+
+
+void test_time_elapse(uint32_t ms_delay) 
+{
+	  CTimeoutTimer ttimer(0);
+		uint32_t download_interval;
+		ttimer.Reset();
+
+		Sleep(ms_delay);
+
+	 printf( "\nTotal time  : %d ms \n", download_interval);
+}	

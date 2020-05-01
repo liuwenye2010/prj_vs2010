@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="StoreDatabase">
+</Property><Property Name="Solution File" Value="C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\StoreDatabase.sln">
+</Property><Property Name="User Options File" Value="C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\StoreDatabase.suo">
+</Property><Property Name="Date" Value="Friday, December 20, 2019">
+</Property><Property Name="Time" Value="22:01 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="StoreDatabase.sln" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\StoreDatabase.sln">
+</Event><Event ErrorLevel="0" Project="" Source="StoreDatabase.suo" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\StoreDatabase.suo">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="StoreDatabase.csproj" Description="Project file successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\StoreDatabase.csproj">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="StoreDatabase.csproj.user" Description="Project user file successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\StoreDatabase.csproj.user">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="Category.cs" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\Category.cs">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="Product.cs" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\Product.cs">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="StoreDB.cs" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\StoreDB.cs">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="StoreDbDataSet.cs" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\StoreDbDataSet.cs">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="app.config" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="Properties\Settings.settings" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="store.xsd" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\store.xsd">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="store.xml" Description="File successfully backed up as C:\cygwin\home\johl\expr\exprj\prj_vs2010\wpf\Pro WPF\StoreDatabase\Backup\store.xml">
+</Event><Event ErrorLevel="0" Project="StoreDatabase" Source="StoreDatabase.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="StoreDatabase" Source="StoreDatabase.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="StoreDatabase.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="StoreDatabase.sln" Description="Converted">
+</Event></UpgradeLog>
